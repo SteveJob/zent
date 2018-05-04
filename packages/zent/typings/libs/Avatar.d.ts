@@ -11,6 +11,7 @@ declare module 'zent/lib/avatar' {
     style?: React.StyleHTMLAttributes
     className?: string
     prefix?: string
+    
   }
 
   export default class Avatar extends React.Component<IAvatarProps, any> {}
